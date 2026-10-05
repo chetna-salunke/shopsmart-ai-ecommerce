@@ -1,8 +1,10 @@
 # ShopSmart
 
 <img width="2160" height="5120" alt="01-home-full" src="https://github.com/user-attachments/assets/5bdd1d13-d63f-4e3c-ac91-eedd6c90ad90" />
-<img width="2482" height="1293" alt="10-mobile" src="https://github.com/user-attachments/assets/97ac1480-ee46-4b8d-8b93-6dddd39581a2" />
 
+### Mobile UI
+
+<img width="2482" height="1293" alt="10-mobile" src="https://github.com/user-attachments/assets/97ac1480-ee46-4b8d-8b93-6dddd39581a2" />
 
 ShopSmart is a small online shopping website I built with React. You can browse products, search and filter them, add things to a cart and go through a checkout. The extra feature is an **AI assistant** on every product page that answers questions about that product.
 
