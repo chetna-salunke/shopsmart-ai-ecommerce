@@ -1,8 +1,9 @@
 # ShopSmart
 
-ShopSmart is a small online shopping website I built with React. You can browse products, search and filter them, add things to a cart and go through a checkout. The extra feature is an **AI assistant** on every product page that answers questions about that product.
+![Uploading 01-home-full.png…]()
 
-![ShopSmart overview](docs/screenshots/00-overview.png)
+
+ShopSmart is a small online shopping website I built with React. You can browse products, search and filter them, add things to a cart and go through a checkout. The extra feature is an **AI assistant** on every product page that answers questions about that product.
 
 ---
 
@@ -41,34 +42,6 @@ On any product page I click **"Ask AI About This Product"** and ask things like:
 The app sends the product's details (price, rating, warranty, specs) together with my question to the AI, and it answers using only that information. If the details don't cover the question, it says so.
 
 I kept the AI key on a small Express server instead of the React code, so it is never exposed in the browser.
-
----
-
-## Screenshots
-
-### Home page
-![Home page](docs/screenshots/01-home-full.png)
-
-### Shop with filters
-![Shop](docs/screenshots/03-shop.png)
-
-### AI Product Assistant
-![AI assistant](docs/screenshots/05-ai-assistant.png)
-
-> The product pictures in these screenshots are placeholder illustrations and the AI answers are example text, because I captured them in a test setup. In the real app the products come from DummyJSON and the answers come from Gemini.
-
-### Cart and checkout
-| Cart | Checkout |
-| --- | --- |
-| ![Cart](docs/screenshots/06-cart.png) | ![Checkout](docs/screenshots/07-checkout.png) |
-
-### Login and sign up (demo)
-| Log in | Sign up |
-| --- | --- |
-| ![Login](docs/screenshots/08-login.png) | ![Sign up](docs/screenshots/08b-signup.png) |
-
-### Mobile
-![Mobile](docs/screenshots/10-mobile.png)
 
 ---
 
