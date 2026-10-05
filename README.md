@@ -1,4 +1,4 @@
-# ShopSmart
+# ShopSmart 🛍️🤖
 
 <img width="2160" height="5120" alt="01-home-full" src="https://github.com/user-attachments/assets/5bdd1d13-d63f-4e3c-ac91-eedd6c90ad90" />
 
