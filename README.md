@@ -18,22 +18,6 @@ The AI part is an add-on. When I shop online I often have a small question ("is 
 
 ---
 
-## What it can do
-
-- **Home page** with a hero section, shop-by-category cards, a deal of the day with a countdown, trending products with category tabs, and a short section explaining the AI assistant
-- **Products page** with search, filters (category, price, rating, in stock), sorting (price, rating, newest) and a count like "Showing 24 of 40 products"
-- **Product details** with images, price, discount, specs, stock and a quantity selector
-- **Shopping cart** where I can add, remove and change quantities, with a full order summary (subtotal, discount, delivery, total). The cart is saved, so it is still there after a refresh
-- **Login and sign up (demo)** with a "Continue with Google" button and email/password forms with validation
-- **Checkout (demo)** with delivery details and four payment options: UPI, card, net banking and cash on delivery. It validates the form and ends on an order confirmation page
-- **AI Product Assistant** with suggestion chips, a loading state, an error message and a "Try Again" button
-- Loading, error and "No products found" states on every page
-- Works on desktop, tablet and mobile (with a hamburger menu on small screens)
-
-> **Please note:** login and payment are **demo only**. No real account is created, nothing is sent to a server, and no payment is processed. The customer reviews and newsletter box on the home page are placeholders.
-
----
-
 ## The AI assistant
 
 On any product page I click **"Ask AI About This Product"** and ask things like:
@@ -76,32 +60,6 @@ Your browser (React app)
 ```
 
 Product prices come from DummyJSON in dollars, and I convert them to rupees in `productApi.js`.
-
----
-
-## Folder structure
-
-```
-shopsmart/
-├── server/
-│   └── index.js              # Backend that talks to the AI
-├── src/
-│   ├── components/           # Navbar, Footer, ProductCard, FilterPanel, CartItem, AIProductAssistant...
-│   ├── pages/                # Home, Products, ProductDetails, Cart, Checkout, Login, OrderSuccess
-│   ├── services/             # productApi.js (products) and aiService.js (AI)
-│   ├── context/              # CartContext.jsx and AuthContext.jsx (shared state)
-│   ├── hooks/                # useProducts.js (loads products)
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── index.css             # colours, layout, shared styles
-│   ├── home.css              # home page styles
-│   └── flow.css              # login, checkout and order pages
-├── docs/screenshots/         # images used in this README
-├── .env.example              # example settings file
-├── index.html
-├── package.json
-└── vite.config.js
-```
 
 ---
 
@@ -178,14 +136,6 @@ Now open **http://localhost:5173** in your browser.
 | **Products don't load** | Check your internet connection. The product data comes from dummyjson.com |
 
 Browsing, filtering, the cart and checkout still work without the AI server. Only the AI chat needs it.
-
----
-
-## Keeping the key safe
-
-- My `.env` file is listed in `.gitignore`, so it is not uploaded to GitHub. Only `.env.example` is, and it has no real key.
-- Never share your API key in screenshots, chats or public code.
-- If a key leaks, delete it in Google AI Studio and make a new one.
 
 ---
 
